@@ -1,0 +1,23 @@
+.list {
+    list-style-type: none;
+    margin: 10px 0;
+  }
+
+
+.checkbox {
+    margin-right: 10px;
+  }
+  
+.todolist {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
