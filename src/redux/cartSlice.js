@@ -10,7 +10,7 @@ const initialState = {
   error: null,
 };
 
-// 서버에서 장바구니 아이템을 가져오기
+// 서버에서 장바구니 아이템을 가져오기 - createAsyncThunk
 export const fetchCartItems = createAsyncThunk(
   'cart/fetchCartItems', 
   async (_,thunkAPI) => {
