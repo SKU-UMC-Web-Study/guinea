@@ -32,7 +32,6 @@ const ProductPage = () => {
   if(cart.status==='loading'){
     return <Spinner />;
   }
-
   return (
     <Container>
       <NavBar>
